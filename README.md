@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2075-decode-the-slanted-ciphertext](https://github.com/gajender09/LeetCode-POTD/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2751-robot-collisions](https://github.com/gajender09/LeetCode-POTD/tree/master/2751-robot-collisions) |
 ## Dynamic Programming
 |  |
@@ -35,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/gajender09/LeetCode-POTD/tree/master/3661-maximum-walls-destroyed-by-robots) |
+## String
+|  |
+| ------- |
+| [2075-decode-the-slanted-ciphertext](https://github.com/gajender09/LeetCode-POTD/tree/master/2075-decode-the-slanted-ciphertext) |
 <!---LeetCode Topics End-->
