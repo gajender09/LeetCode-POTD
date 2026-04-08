@@ -1,0 +1,39 @@
+class Solution {
+public:
+    int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
+
+        unordered_set<string> st;
+        for (vector<int>& obs : obstacles) {
+            string key = to_string(obs[0]) + "_" + to_string(obs[1]);
+            st.insert(key);
+        }
+
+        int x = 0;
+        int y = 0;
+        int maxDistance = 0;
+        pair<int, int> dir = {0, 1}; // North
+
+        for (int i = 0; i < commands.size(); i++) {
+            if (commands[i] == -2) { // Left
+                dir = {-dir.second, dir.first};
+            } else if (commands[i] == -1) { // Right
+                dir = {dir.second, -dir.first};
+
+            } else { // move to the direction step by step
+                for (int j = 0; j < commands[i]; j++) {
+                    int newX = x + dir.first;
+                    int newY = y + dir.second;
+
+                    string currKey = to_string(newX) + "_" + to_string(newY);
+                    if (st.find(currKey) != st.end()) {
+                        break;
+                    }
+                    x = newX;
+                    y = newY;
+                }
+            }
+            maxDistance = max(maxDistance, x * x + y * y);
+        }
+        return maxDistance;
+    }
+};
