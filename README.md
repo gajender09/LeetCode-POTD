@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2751-robot-collisions](https://github.com/gajender09/LeetCode-POTD/tree/master/2751-robot-collisions) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/gajender09/LeetCode-POTD/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/gajender09/LeetCode-POTD/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Stack
 |  |
 | ------- |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2751-robot-collisions](https://github.com/gajender09/LeetCode-POTD/tree/master/2751-robot-collisions) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/gajender09/LeetCode-POTD/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Simulation
 |  |
 | ------- |
@@ -24,8 +26,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/gajender09/LeetCode-POTD/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/gajender09/LeetCode-POTD/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Matrix
 |  |
 | ------- |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/gajender09/LeetCode-POTD/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+## Binary Search
+|  |
+| ------- |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/gajender09/LeetCode-POTD/tree/master/3661-maximum-walls-destroyed-by-robots) |
 <!---LeetCode Topics End-->
