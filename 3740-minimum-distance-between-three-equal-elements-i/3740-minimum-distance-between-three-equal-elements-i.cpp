@@ -2,19 +2,22 @@ class Solution {
 public:
     int minimumDistance(vector<int>& nums) {
         int n = nums.size();
-        int last2[100] = {};
-        int res = 200;
 
-        for (int i = 0; i < n; i++) {
-            int val = nums[i] - 1, pos = i + 1;
-            int pack = last2[val];
-            int old = pack & 255, cur = pack >> 8;
+        unordered_map<int, vector<int>> mp;
+        int result = INT_MAX;
 
-            last2[val] = cur | (pos << 8);
+        for(int k = 0; k < n; k++) {
+            mp[nums[k]].push_back(k);
 
-            if (old) res = min(res, (pos - old) << 1);
+            if(mp[nums[k]].size() >= 3) {
+                vector<int> &vec = mp[nums[k]];
+                int siz = vec.size();
+
+                int i = vec[siz-3];
+                result = min(result, k-i);
+            }
         }
 
-        return -(res == 200) | res;
+        return result >= INT_MAX ? -1 : 2*result;
     }
 };
