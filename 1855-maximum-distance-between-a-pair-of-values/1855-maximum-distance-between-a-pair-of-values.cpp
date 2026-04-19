@@ -10,9 +10,9 @@ public:
         while (i < n && j < m) {
             if (nums1[i] <= nums2[j]) {
                 maxD = max(maxD, j - i);
-                j++;   // expand window
+                j++;   
             } else {
-                i++;   // shrink from left
+                i++;   
             }
         }
 
