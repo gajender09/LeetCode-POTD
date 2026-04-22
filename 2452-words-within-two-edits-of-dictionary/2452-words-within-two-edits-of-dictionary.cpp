@@ -2,28 +2,27 @@ class Solution {
 public:
     vector<string> twoEditWords(vector<string>& queries,
                                 vector<string>& dictionary) {
-        vector<string> result;
+        vector<string> res;
 
-        for (string& query : queries) {
+        for (string& s : queries) {
+            for (string& str : dictionary) {
+                int edits = 0;
 
-            for (string& s : dictionary) {
-                int diff = 0;
+                for (int i = 0; i < s.length(); i++) {
+                    if (s[i] != str[i])
+                        edits++;
 
-                for (int i = 0; i < query.size(); i++) {
-                    if (query[i] != s[i]) {
-                        ++diff;
-                    }
-
-                    if (diff > 2)
+                    if (edits > 2)
                         break;
                 }
 
-                if (diff <= 2) {
-                    result.push_back(query);
+                if (edits <= 2) {
+                    res.push_back(s);
                     break;
                 }
             }
         }
-        return result;
+
+        return res;
     }
 };
