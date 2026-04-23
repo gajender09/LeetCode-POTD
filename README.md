@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/gajender09/LeetCode-POTD/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/gajender09/LeetCode-POTD/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/gajender09/LeetCode-POTD/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/gajender09/LeetCode-POTD/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-total-distance-traveled](https://github.com/gajender09/LeetCode-POTD/tree/master/2463-minimum-total-distance-traveled) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/gajender09/LeetCode-POTD/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
+| [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
 | [2615-sum-of-distances](https://github.com/gajender09/LeetCode-POTD/tree/master/2615-sum-of-distances) |
 | [3488-closest-equal-element-queries](https://github.com/gajender09/LeetCode-POTD/tree/master/3488-closest-equal-element-queries) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/gajender09/LeetCode-POTD/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
@@ -114,5 +116,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
 | [2615-sum-of-distances](https://github.com/gajender09/LeetCode-POTD/tree/master/2615-sum-of-distances) |
 <!---LeetCode Topics End-->
