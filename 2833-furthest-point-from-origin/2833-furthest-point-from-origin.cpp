@@ -3,7 +3,7 @@ public:
     int furthestDistanceFromOrigin(string moves) {
         int L = 0;
         int R = 0;
-        int underscore = 0;
+        int B = 0;
 
         for (char ch : moves) {
             if (ch == 'L')
@@ -11,8 +11,8 @@ public:
             else if (ch == 'R')
                 R++;
             else
-                underscore++;
+                B++;
         }
-        return abs(L - R) + underscore;
+        return abs(L - R) + B;
     }
 };
