@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2075-decode-the-slanted-ciphertext](https://github.com/gajender09/LeetCode-POTD/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/gajender09/LeetCode-POTD/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/gajender09/LeetCode-POTD/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2833-furthest-point-from-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/2833-furthest-point-from-origin) |
 ## Hash Table
 |  |
 | ------- |
@@ -118,4 +119,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
 | [2615-sum-of-distances](https://github.com/gajender09/LeetCode-POTD/tree/master/2615-sum-of-distances) |
+## Counting
+|  |
+| ------- |
+| [2833-furthest-point-from-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/2833-furthest-point-from-origin) |
 <!---LeetCode Topics End-->
