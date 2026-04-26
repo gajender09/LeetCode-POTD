@@ -1,35 +1,39 @@
 class Solution {
 public:
+
+    typedef long long ll;
+
     vector<long long> getDistances(vector<int>& arr) {
         int n = arr.size();
-        unordered_map<int, vector<int>> mp;
-        vector<long long> res(n, 0);
 
+        vector<ll> res(n, 0);
+
+        unordered_map<int, ll> indexSum;   // nums[i] -> sum of i's
+        unordered_map<int, ll> indexCount; // nums[i] -> frequency
+
+        // Left to Right
         for (int i = 0; i < n; i++) {
-            mp[arr[i]].push_back(i);
+            ll freq = indexCount[arr[i]];
+            ll sum = indexSum[arr[i]];
+
+            res[i] += freq * i - sum;
+
+            indexCount[arr[i]] += 1;
+            indexSum[arr[i]] += i;
         }
 
-        for (auto &p : mp) {
-            vector<int>& v = p.second;
+        indexSum.clear();
+        indexCount.clear();
 
-            long long totalSum = 0;
-            for (int x : v) totalSum += x;
+        // Right to Left
+        for (int i = n - 1; i >= 0; i--) {
+            ll freq = indexCount[arr[i]];
+            ll sum = indexSum[arr[i]];
 
-            long long leftSum = 0, rightSum = totalSum;
-            long long leftCount = 0, rightCount = v.size();
+            res[i] += sum - freq * i;
 
-            for (int i = 0; i < v.size(); i++) {
-                rightSum -= v[i];
-                rightCount--;
-
-                long long left = leftCount * 1LL * v[i] - leftSum;
-                long long right = rightSum - rightCount * 1LL * v[i];
-
-                res[v[i]] = left + right;
-
-                leftSum += v[i];
-                leftCount++;
-            }
+            indexCount[arr[i]] += 1;
+            indexSum[arr[i]] += i;
         }
 
         return res;
