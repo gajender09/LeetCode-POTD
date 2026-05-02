@@ -1,49 +1,47 @@
 class Solution {
 public:
+    int m, n;
+
+    int solve(vector<vector<int>>& grid, int k, int i, int j, int cost,
+              vector<vector<vector<int>>>& t) {
+        if (i >= m || j >= n)
+            return INT_MIN;
+
+        int newCost = cost + (grid[i][j] > 0);
+
+        if (newCost > k)
+            return INT_MIN;
+
+        if (i == m - 1 && j == n - 1)
+            return grid[i][j]; // score
+
+        if (t[i][j][cost] != -1) {
+            return t[i][j][cost];
+        }
+
+        // down
+        // right
+        int down = solve(grid, k, i + 1, j, newCost, t);
+        int right = solve(grid, k, i, j + 1, newCost, t);
+
+        int bestNext = max(down, right);
+
+        if (bestNext == INT_MIN) {
+            return t[i][j][cost] = INT_MIN;
+        }
+
+        return t[i][j][cost] = grid[i][j] + bestNext;
+    }
+
     int maxPathScore(vector<vector<int>>& grid, int k) {
-        int m = grid.size();
-        int n = grid[0].size();
-        const int NEG = -1e9;
+        m = grid.size();
+        n = grid[0].size();
 
-        vector<vector<int>> prev(n, vector<int>(k + 1, NEG));
+        vector<vector<vector<int>>> t(
+            m + 1, vector<vector<int>>(n + 1, vector<int>(k + 1, -1)));
 
-        for (int i = 0; i < m; ++i) {
-            vector<vector<int>> curr(n, vector<int>(k + 1, NEG));
+        int result = solve(grid, k, 0, 0, 0, t);
 
-            for (int j = 0; j < n; ++j) {
-                int gain = grid[i][j];
-                int need = (gain > 0 ? 1 : 0);
-
-                int limit = min(k, i + j);
-
-                if (i == 0 && j == 0) {
-                    curr[0][0] = 0;
-                    continue;
-                }
-
-                for (int c = need; c <= limit; ++c) {
-                    int best = NEG;
-
-                    if (i > 0 && prev[j][c - need] != NEG) {
-                        best = max(best, prev[j][c - need] + gain);
-                    }
-
-                    if (j > 0 && curr[j - 1][c - need] != NEG) {
-                        best = max(best, curr[j - 1][c - need] + gain);
-                    }
-
-                    curr[j][c] = best;
-                }
-            }
-
-            prev.swap(curr);
-        }
-
-        int ans = NEG;
-        for (int c = 0; c <= k; ++c) {
-            ans = max(ans, prev[n - 1][c]);
-        }
-
-        return ans < 0 ? -1 : ans;
+        return result == INT_MIN ? -1 : result;
     }
 };
