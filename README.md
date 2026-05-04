@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
 | [0657-robot-return-to-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/0657-robot-return-to-origin) |
 | [0796-rotate-string](https://github.com/gajender09/LeetCode-POTD/tree/master/0796-rotate-string) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/gajender09/LeetCode-POTD/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
 | [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
 | [2615-sum-of-distances](https://github.com/gajender09/LeetCode-POTD/tree/master/2615-sum-of-distances) |
