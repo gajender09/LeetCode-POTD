@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1914-cyclically-rotating-a-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1914-cyclically-rotating-a-grid) |
 | [2069-walking-robot-simulation-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/gajender09/LeetCode-POTD/tree/master/2075-decode-the-slanted-ciphertext) |
+| [2180-count-integers-with-even-digit-sum](https://github.com/gajender09/LeetCode-POTD/tree/master/2180-count-integers-with-even-digit-sum) |
 | [2553-separate-the-digits-in-an-array](https://github.com/gajender09/LeetCode-POTD/tree/master/2553-separate-the-digits-in-an-array) |
 | [2751-robot-collisions](https://github.com/gajender09/LeetCode-POTD/tree/master/2751-robot-collisions) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/gajender09/LeetCode-POTD/tree/master/3653-xor-after-range-multiplication-queries-i) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/gajender09/LeetCode-POTD/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-count-integers-with-even-digit-sum](https://github.com/gajender09/LeetCode-POTD/tree/master/2180-count-integers-with-even-digit-sum) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/gajender09/LeetCode-POTD/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/gajender09/LeetCode-POTD/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/gajender09/LeetCode-POTD/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
