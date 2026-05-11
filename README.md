@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0258-add-digits) |
 | [0657-robot-return-to-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/0657-robot-return-to-origin) |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
 | [1441-build-an-array-with-stack-operations](https://github.com/gajender09/LeetCode-POTD/tree/master/1441-build-an-array-with-stack-operations) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/gajender09/LeetCode-POTD/tree/master/0048-rotate-image) |
+| [0258-add-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0258-add-digits) |
 | [0396-rotate-function](https://github.com/gajender09/LeetCode-POTD/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -200,5 +202,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0258-add-digits) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/gajender09/LeetCode-POTD/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 <!---LeetCode Topics End-->
