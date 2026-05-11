@@ -2,21 +2,24 @@ class Solution {
 public:
     int maximumJumps(vector<int>& nums, int target) {
         int n = nums.size();
-        // dp array to store max jumps till index i
-        vector<int> dp(n, -1);
 
-        // First index is reachable with 0 jumps
-        dp[0]=0;
+        vector<int> t(n+1, INT_MIN);
 
-        for(int i=1; i<n; i++) {
-            for(int j=0; j<i; j++) {
-                // Check if the condition holds true and prev index was visited
-                if(abs(nums[i]-nums[j]) <= target && dp[j]>-1) {
-                    dp[i] = max(dp[i], 1+dp[j]);
-                }
+        t[n-1] = 0;
+
+        for(int i = n-2; i >= 0; i--) {
+            for(int j = i+1; j < n; j++) {
+                if (abs(nums[i] - nums[j]) <= target &&
+                    t[j] != INT_MIN) {
+                        int temp = 1 + t[j];
+
+                        t[i] = max(t[i], temp);
+                    }
             }
         }
 
-        return dp[n-1];
+        return t[0] < 0 ? -1 : t[0];
+
+        
     }
 };
