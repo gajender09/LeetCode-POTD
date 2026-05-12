@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/gajender09/LeetCode-POTD/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
 | [2463-minimum-total-distance-traveled](https://github.com/gajender09/LeetCode-POTD/tree/master/2463-minimum-total-distance-traveled) |
 | [2751-robot-collisions](https://github.com/gajender09/LeetCode-POTD/tree/master/2751-robot-collisions) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/gajender09/LeetCode-POTD/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/gajender09/LeetCode-POTD/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0788-rotated-digits) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
 | [2180-count-integers-with-even-digit-sum](https://github.com/gajender09/LeetCode-POTD/tree/master/2180-count-integers-with-even-digit-sum) |
 | [2544-alternating-digit-sum](https://github.com/gajender09/LeetCode-POTD/tree/master/2544-alternating-digit-sum) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/gajender09/LeetCode-POTD/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/gajender09/LeetCode-POTD/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/gajender09/LeetCode-POTD/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
 ## Depth-First Search
 |  |
 | ------- |
