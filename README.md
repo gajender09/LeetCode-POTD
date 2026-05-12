@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/gajender09/LeetCode-POTD/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
 | [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/gajender09/LeetCode-POTD/tree/master/0048-rotate-image) |
+| [0202-happy-number](https://github.com/gajender09/LeetCode-POTD/tree/master/0202-happy-number) |
 | [0258-add-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0258-add-digits) |
 | [0396-rotate-function](https://github.com/gajender09/LeetCode-POTD/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0788-rotated-digits) |
@@ -151,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/gajender09/LeetCode-POTD/tree/master/0061-rotate-list) |
+| [0202-happy-number](https://github.com/gajender09/LeetCode-POTD/tree/master/0202-happy-number) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/gajender09/LeetCode-POTD/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/gajender09/LeetCode-POTD/tree/master/1861-rotating-the-box) |
 ## Greedy
