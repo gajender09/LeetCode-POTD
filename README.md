@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1441-build-an-array-with-stack-operations](https://github.com/gajender09/LeetCode-POTD/tree/master/1441-build-an-array-with-stack-operations) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/gajender09/LeetCode-POTD/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/gajender09/LeetCode-POTD/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/gajender09/LeetCode-POTD/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/gajender09/LeetCode-POTD/tree/master/1855-maximum-distance-between-a-pair-of-values) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/gajender09/LeetCode-POTD/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2463-minimum-total-distance-traveled](https://github.com/gajender09/LeetCode-POTD/tree/master/2463-minimum-total-distance-traveled) |
 | [2751-robot-collisions](https://github.com/gajender09/LeetCode-POTD/tree/master/2751-robot-collisions) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/gajender09/LeetCode-POTD/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/gajender09/LeetCode-POTD/tree/master/2078-two-furthest-houses-with-different-colors) |
 ## Depth-First Search
 |  |
