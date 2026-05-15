@@ -5,13 +5,15 @@ public:
         int n = nums.size();
         int l = 0;
         int r = n - 1;
-        int mid;
 
         while (l < r) {
 
-            mid = l + (r - l) / 2;
+            if (nums[l] < nums[r])
+                return nums[l];
 
-            if (nums[r] < nums[mid]) {
+            int mid = l + (r - l) / 2;
+
+            if (nums[mid] > nums[r]) {
 
                 l = mid + 1;
             } 
