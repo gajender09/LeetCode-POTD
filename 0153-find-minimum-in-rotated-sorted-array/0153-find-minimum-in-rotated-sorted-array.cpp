@@ -5,7 +5,6 @@ public:
         int n = nums.size();
         int l = 0;
         int r = n - 1;
-        int minEle = INT_MAX;
         int mid;
 
         while (l < r) {
