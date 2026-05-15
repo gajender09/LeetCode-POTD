@@ -11,7 +11,7 @@ public:
 
             mid = l + (r - l) / 2;
 
-            if (nums[r] <= nums[mid]) {
+            if (nums[r] < nums[mid]) {
 
                 l = mid + 1;
             } 
