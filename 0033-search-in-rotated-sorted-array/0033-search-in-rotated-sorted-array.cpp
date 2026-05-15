@@ -15,21 +15,21 @@ public:
             // left half sorted (mid is in left half)
             if (nums[l] <= nums[mid]) {
 
-                if (target >= nums[l] && target < nums[mid])
+                if (target >= nums[l] && target < nums[mid]) // target in left
                     r = mid - 1;
 
                 else
-                    l = mid + 1; // when mid in in left but target is in right
+                    l = mid + 1; // target in right
             }
 
             // right half sorted (mid is in right half)
             else {
 
-                if (target > nums[mid] && target <= nums[r])
+                if (target > nums[mid] && target <= nums[r]) // target in right
                     l = mid + 1;
 
                 else
-                    r = mid - 1; // when mid in in right but target is in left
+                    r = mid - 1; // target in left
             }
         }
 
