@@ -19,7 +19,7 @@ public:
                     r = mid - 1;
 
                 else
-                    l = mid + 1;
+                    l = mid + 1; // when mid in in left but target is in right
             }
 
             // right half sorted (mid is in right half)
@@ -29,7 +29,7 @@ public:
                     l = mid + 1;
 
                 else
-                    r = mid - 1;
+                    r = mid - 1; // when mid in in right but target is in left
             }
         }
 
