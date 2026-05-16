@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/gajender09/LeetCode-POTD/tree/master/0033-search-in-rotated-sorted-array) |
 | [0048-rotate-image](https://github.com/gajender09/LeetCode-POTD/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/gajender09/LeetCode-POTD/tree/master/0049-group-anagrams) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gajender09/LeetCode-POTD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/gajender09/LeetCode-POTD/tree/master/0049-group-anagrams) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/gajender09/LeetCode-POTD/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/gajender09/LeetCode-POTD/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
 | [0657-robot-return-to-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/0657-robot-return-to-origin) |
 | [0796-rotate-string](https://github.com/gajender09/LeetCode-POTD/tree/master/0796-rotate-string) |
@@ -127,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/gajender09/LeetCode-POTD/tree/master/0049-group-anagrams) |
 | [0202-happy-number](https://github.com/gajender09/LeetCode-POTD/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
