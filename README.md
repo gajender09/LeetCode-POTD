@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gajender09/LeetCode-POTD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [0396-rotate-function](https://github.com/gajender09/LeetCode-POTD/tree/master/0396-rotate-function) |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/gajender09/LeetCode-POTD/tree/master/0049-group-anagrams) |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/gajender09/LeetCode-POTD/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/gajender09/LeetCode-POTD/tree/master/0049-group-anagrams) |
 | [0202-happy-number](https://github.com/gajender09/LeetCode-POTD/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/gajender09/LeetCode-POTD/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
@@ -150,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/gajender09/LeetCode-POTD/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 ## Math
@@ -207,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [2833-furthest-point-from-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/2833-furthest-point-from-origin) |
 ## Geometry
 |  |
@@ -231,4 +236,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0258-add-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0258-add-digits) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/gajender09/LeetCode-POTD/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
