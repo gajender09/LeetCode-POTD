@@ -9,11 +9,11 @@ public:
 
         for (int i = 1; i < n; i++) {
 
-            if (i - minJump >= 0 && dp[i - minJump])
-                count++;
+            if (i - minJump >= 0)
+                count += dp[i - minJump];
 
-            if (i - maxJump - 1 >= 0 && dp[i - maxJump - 1])
-                count--;
+            if (i - maxJump - 1 >= 0)
+                count -= dp[i - maxJump - 1];
 
             if (count > 0 && s[i] == '0')
                 dp[i] = true;
