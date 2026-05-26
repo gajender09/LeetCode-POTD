@@ -1,21 +1,22 @@
 class Solution {
 public:
     int numberOfSpecialChars(string word) {
-        unordered_map<int, pair<int, int>> mp;
-        int ans = 0;
+        vector<bool> lower(26, false);
+        vector<bool> upper(26, false);
 
         for (char ch : word) {
-
             if (ch >= 'a' && ch <= 'z') {
-                mp[ch - 'a'].first++;
-            }
-            if (ch >= 'A' && ch <= 'Z') {
-                mp[tolower(ch) - 'a'].second++;
+                lower[ch - 'a'] = true;
+            } 
+            else if (ch >= 'A' && ch <= 'Z') {
+                upper[ch - 'A'] = true;
             }
         }
 
-        for (auto& p : mp) {
-            if (p.second.first > 0 && p.second.second > 0) {
+        int ans = 0;
+
+        for (int i = 0; i < 26; i++) {
+            if (lower[i] && upper[i]) {
                 ans++;
             }
         }
