@@ -24,19 +24,21 @@ public:
         buildSegmentTree(2 * i + 2, mid + 1, r, nums);
 
         if (isMinTree) {
-            segmentTree[i] = min(segmentTree[2 * i + 1], segmentTree[2 * i + 2]);
+            segmentTree[i] =
+                min(segmentTree[2 * i + 1], segmentTree[2 * i + 2]);
         } else {
-            segmentTree[i] = max(segmentTree[2 * i + 1], segmentTree[2 * i + 2]);
+            segmentTree[i] =
+                max(segmentTree[2 * i + 1], segmentTree[2 * i + 2]);
         }
     }
 
     int querySegmentTree(int start, int end, int i, int l, int r) {
-        //No overlap
+        // No overlap
         if (l > end || r < start) {
             return isMinTree ? INT_MAX : INT_MIN;
         }
 
-        //Complete Overlap
+        // Complete Overlap
         if (l >= start && r <= end) {
             return segmentTree[i];
         }
@@ -72,31 +74,31 @@ public:
     long long maxTotalValue(vector<int>& nums, int k) {
         int n = nums.size();
 
-        SegmentTree minST(nums, true);   //true is for minimum
-        SegmentTree maxST(nums, false);  //false is for maximum
+        SegmentTree minST(nums, true);  // true is for minimum
+        SegmentTree maxST(nums, false); // false is for maximum
 
         //{val, l, r} max. heap
         priority_queue<tuple<ll, int, int>> pq;
 
-        //Step-1 (Initialize the heap with best value)
-        //O(n*logn)
-        for (int l = 0; l < n; l++) {  //l to n-1
-            ll value = getValue(l, n - 1, minST, maxST, n);  //log(n)
+        // Step-1 (Initialize the heap with best value)
+        // O(n*logn)
+        for (int l = 0; l < n; l++) {                       // l to n-1
+            ll value = getValue(l, n - 1, minST, maxST, n); // log(n)
             pq.push({value, l, n - 1});
         }
 
-        //Step-2 Find top k
+        // Step-2 Find top k
         ll result = 0;
-        //O(k * log(n))
+        // O(k * log(n))
         while (k--) {
             auto [value, l, r] = pq.top();
             pq.pop();
 
             result += value;
 
-            ll nextBestValue = getValue(l, r - 1, minST, maxST, n);  //log(n)
+            ll nextBestValue = getValue(l, r - 1, minST, maxST, n); // log(n)
 
-            pq.push({nextBestValue, l, r - 1});  //log(n)
+            pq.push({nextBestValue, l, r - 1}); // log(n)
         }
 
         return result;
