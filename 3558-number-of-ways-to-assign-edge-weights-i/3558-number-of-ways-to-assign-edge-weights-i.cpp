@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void countEdges(int child, int parent, int currDepth, int &maxDepth,
+    void countEdges(int child, int parent, int currDepth, int& maxDepth,
                     vector<vector<int>>& adj) {
         maxDepth = max(maxDepth, currDepth);
 
@@ -10,20 +10,6 @@ public:
 
             countEdges(nei, child, currDepth + 1, maxDepth, adj);
         }
-    }
-
-    long long modPow(long long a, long long b, long long mod) {
-        long long res = 1;
-
-        while (b) {
-            if (b & 1)
-                res = (res * a) % mod;
-
-            a = (a * a) % mod;
-            b >>= 1;
-        }
-
-        return res;
     }
 
     int assignEdgeWeights(vector<vector<int>>& edges) {
@@ -45,6 +31,12 @@ public:
         if (maxDepth == 0)
             return 1;
 
-        return modPow(2, maxDepth - 1, MOD);
+        long long ways = 1;
+
+        for (int i = 1; i < maxDepth; i++) {
+            ways = (ways * 2) % MOD;
+        }
+
+        return ways;
     }
 };
