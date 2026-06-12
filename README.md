@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0788-rotated-digits](https://github.com/gajender09/LeetCode-POTD/tree/master/0788-rotated-digits) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/gajender09/LeetCode-POTD/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1340-jump-game-v](https://github.com/gajender09/LeetCode-POTD/tree/master/1340-jump-game-v) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/gajender09/LeetCode-POTD/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1871-jump-game-vii](https://github.com/gajender09/LeetCode-POTD/tree/master/1871-jump-game-vii) |
 | [2463-minimum-total-distance-traveled](https://github.com/gajender09/LeetCode-POTD/tree/master/2463-minimum-total-distance-traveled) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/gajender09/LeetCode-POTD/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/gajender09/LeetCode-POTD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/gajender09/LeetCode-POTD/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/gajender09/LeetCode-POTD/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2540-minimum-common-value](https://github.com/gajender09/LeetCode-POTD/tree/master/2540-minimum-common-value) |
 | [3161-block-placement-queries](https://github.com/gajender09/LeetCode-POTD/tree/master/3161-block-placement-queries) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/gajender09/LeetCode-POTD/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2069-walking-robot-simulation-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/2069-walking-robot-simulation-ii) |
 ## Divide and Conquer
 |  |
@@ -250,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1306-jump-game-iii](https://github.com/gajender09/LeetCode-POTD/tree/master/1306-jump-game-iii) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/gajender09/LeetCode-POTD/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/gajender09/LeetCode-POTD/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/gajender09/LeetCode-POTD/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
@@ -289,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1306-jump-game-iii](https://github.com/gajender09/LeetCode-POTD/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/gajender09/LeetCode-POTD/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/gajender09/LeetCode-POTD/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/gajender09/LeetCode-POTD/tree/master/1559-detect-cycles-in-2d-grid) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/gajender09/LeetCode-POTD/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## String Matching
@@ -320,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/gajender09/LeetCode-POTD/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/gajender09/LeetCode-POTD/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 ## Sliding Window
 |  |
@@ -341,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/gajender09/LeetCode-POTD/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/gajender09/LeetCode-POTD/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/gajender09/LeetCode-POTD/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 ## Binary Tree
