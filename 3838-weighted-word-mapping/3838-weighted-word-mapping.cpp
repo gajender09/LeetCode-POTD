@@ -4,16 +4,16 @@ public:
 
         string ans = "";
 
-        for (auto& str : words) {
+        for (string word : words) {
             int sum = 0;
 
-            for (char ch : str) {
+            for (char ch : word) {
                 sum += weights[ch - 'a'];
             }
 
             int mod = sum % 26;
 
-            ans += 'z' - mod;
+            ans += char('z' - mod);
         }
 
         return ans;
