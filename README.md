@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gajender09/LeetCode-POTD/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/gajender09/LeetCode-POTD/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/3655-xor-after-range-multiplication-queries-ii) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gajender09/LeetCode-POTD/tree/master/0023-merge-k-sorted-lists) |
 | [0061-rotate-list](https://github.com/gajender09/LeetCode-POTD/tree/master/0061-rotate-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/gajender09/LeetCode-POTD/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Number Theory
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gajender09/LeetCode-POTD/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/gajender09/LeetCode-POTD/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Bucket Sort
@@ -366,4 +369,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/gajender09/LeetCode-POTD/tree/master/2196-create-binary-tree-from-descriptions) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/gajender09/LeetCode-POTD/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
