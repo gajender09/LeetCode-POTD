@@ -12,7 +12,6 @@ class Solution {
 public:
     int pairSum(ListNode* head) {
         ListNode* temp = head;
-
         vector<int> nums;
 
         while (temp != NULL) {
@@ -21,7 +20,6 @@ public:
         }
 
         int n = nums.size();
-        cout<<n;
         int maxPairSum = 0;
 
         for (int i = 0; i <= (n / 2) - 1; i++) {
