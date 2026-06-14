@@ -1,32 +1,47 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* prev = nullptr;
+        ListNode* curr = head;
+
+        while (curr != nullptr) {
+            ListNode* nextNode = curr->next;
+
+            curr->next = prev;
+
+            prev = curr;
+            curr = nextNode;
+        }
+
+        return prev;
+    }
+
     int pairSum(ListNode* head) {
-        ListNode* temp = head;
-        vector<int> nums;
 
-        while (temp != NULL) {
-            nums.push_back(temp->val);
-            temp = temp->next;
+        ListNode* slow = head;
+        ListNode* fast = head->next;
+
+        while (fast != nullptr && fast->next != nullptr) {
+            slow = slow->next;
+            fast = fast->next->next;
         }
 
-        int n = nums.size();
-        int maxPairSum = 0;
+        ListNode* secondHalf = slow->next;
+        slow->next = nullptr;
 
-        for (int i = 0; i <= (n / 2) - 1; i++) {
+        secondHalf = reverseList(secondHalf);
 
-            maxPairSum = max(maxPairSum, nums[i] + nums[n - 1 - i]);
+        ListNode* firstHalf = head;
+
+        int maxSum = 0;
+
+        while (secondHalf != nullptr) {
+            maxSum = max(maxSum, firstHalf->val + secondHalf->val);
+
+            firstHalf = firstHalf->next;
+            secondHalf = secondHalf->next;
         }
 
-        return maxPairSum;
+        return maxSum;
     }
 };
