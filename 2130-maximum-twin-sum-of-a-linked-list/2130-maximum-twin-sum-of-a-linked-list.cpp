@@ -1,14 +1,14 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
+
         ListNode* prev = nullptr;
         ListNode* curr = head;
 
         while (curr != nullptr) {
+
             ListNode* nextNode = curr->next;
-
             curr->next = prev;
-
             prev = curr;
             curr = nextNode;
         }
@@ -36,6 +36,7 @@ public:
         int maxSum = 0;
 
         while (secondHalf != nullptr) {
+
             maxSum = max(maxSum, firstHalf->val + secondHalf->val);
 
             firstHalf = firstHalf->next;
