@@ -5,11 +5,11 @@ public:
         string result = "";
 
         for (char ch : s) {
+
             if (ch == '*') {
-                if (result.empty())
-                    result += ch;
-                    
-                result.pop_back();
+
+                if (!result.empty())
+                    result.pop_back();
 
             } else if (ch == '#') {
 
@@ -20,6 +20,7 @@ public:
                 reverse(result.begin(), result.end());
 
             } else {
+
                 result += ch;
             }
         }
