@@ -2,14 +2,14 @@ class Solution {
 public:
     double angleClock(int hour, int minutes) {
 
-        double hourSection = double(minutes) / 12;
+        // minute hand angle
+        double minuteAngle = minutes * 6;
 
-        double start = (hour == 12) ? 0 * 5 + hourSection : hour * 5 + hourSection;
+        // hour hand angle
+        double hourAngle = (hour % 12) * 30 + minutes * 0.5;
 
-        double diff = abs(minutes - start);
+        double diff = abs(hourAngle - minuteAngle);
 
-        double angle = diff * 6;
-
-        return angle > 180 ? 360 - angle : angle;
+        return min(diff, 360 - diff);
     }
 };
