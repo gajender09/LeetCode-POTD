@@ -2,18 +2,26 @@ class Solution {
 public:
     int maxIceCream(vector<int>& costs, int coins) {
 
-        sort(begin(costs), end(costs));
-        int maxBars = 0;
+        int maxCost = *max_element(costs.begin(), costs.end());
 
-        for (int i = 0; i < costs.size(); i++) {
-            if (costs[i] <= coins) {
-                maxBars++;
-                coins -= costs[i];
+        vector<int> freq(maxCost + 1);
 
-                if(coins == 0) break;
-            }
+        // Count each cost
+        for (int cost : costs) {
+            freq[cost]++;
         }
 
-        return maxBars;
+        int ans = 0;
+
+        // Traverse costs from cheapest to expensive
+        for (int price = 1; price <= maxCost && coins >= price; price++) {
+
+            int canBuy = min(freq[price], coins / price);
+
+            ans += canBuy;
+            coins -= canBuy * price;
+        }
+
+        return ans;
     }
 };
