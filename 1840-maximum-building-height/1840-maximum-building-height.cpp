@@ -2,49 +2,43 @@ class Solution {
 public:
     int maxBuilding(int n, vector<vector<int>>& restrictions) {
         restrictions.push_back({1, 0});
-        
-        restrictions.push_back({n, n - 1});
+        restrictions.push_back({n, n-1});
 
-        sort(restrictions.begin(), restrictions.end());
+        sort(begin(restrictions), end(restrictions));
 
-        int m = restrictions.size();
+        int N = restrictions.size();
 
-        for (int i = 1; i < m; i++) {
-            int dist = restrictions[i][0] - restrictions[i - 1][0];
-
-            restrictions[i][1] = min(
-                restrictions[i][1],
-                restrictions[i - 1][1] + dist
-            );
+        //Left To Right
+        for(int i = 1; i < N; i++) {
+            int diffDist = restrictions[i][0] - restrictions[i-1][0];
+            restrictions[i][1] = min(restrictions[i][1], restrictions[i-1][1] + diffDist);
         }
 
-        for (int i = m - 2; i >= 0; i--) {
-            int dist = restrictions[i + 1][0] - restrictions[i][0];
-
-            restrictions[i][1] = min(
-                restrictions[i][1],
-                restrictions[i + 1][1] + dist
-            );
+        //Right to Left
+        for(int i = N-2; i >= 0; i--) {
+            int diffDist       = restrictions[i+1][0] - restrictions[i][0];
+            restrictions[i][1] = min(restrictions[i][1], restrictions[i+1][1] + diffDist);
         }
 
-        long long ans = 0;
+        int result = 0;
 
-        for (int i = 1; i < m; i++) {
-            long long x1 = restrictions[i - 1][0];
-            long long h1 = restrictions[i - 1][1];
+        //Calculating result
+        for(int i = 1; i < N; i++) {
+            int leftPos = restrictions[i-1][0];
+            int leftHt  = restrictions[i-1][1];
 
-            long long x2 = restrictions[i][0];
-            long long h2 = restrictions[i][1];
+            int currPos = restrictions[i][0];
+            int currHt  = restrictions[i][1];
 
-            long long dist = x2 - x1;
+            int d      = currPos - leftPos;
+            int htDiff = abs(leftHt - currHt);
 
-            long long peak =
-                max(h1, h2) +
-                (dist - llabs(h1 - h2)) / 2;
 
-            ans = max(ans, peak);
+            int peak = max(leftHt, currHt) + (d - htDiff)/2;
+
+            result = max(result, peak);
         }
 
-        return (int)ans;
+        return result;
     }
 };
