@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/gajender09/LeetCode-POTD/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1871-jump-game-vii](https://github.com/gajender09/LeetCode-POTD/tree/master/1871-jump-game-vii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/gajender09/LeetCode-POTD/tree/master/2075-decode-the-slanted-ciphertext) |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/gajender09/LeetCode-POTD/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/gajender09/LeetCode-POTD/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/gajender09/LeetCode-POTD/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/2833-furthest-point-from-origin) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/gajender09/LeetCode-POTD/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/gajender09/LeetCode-POTD/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/gajender09/LeetCode-POTD/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2540-minimum-common-value](https://github.com/gajender09/LeetCode-POTD/tree/master/2540-minimum-common-value) |
 | [2615-sum-of-distances](https://github.com/gajender09/LeetCode-POTD/tree/master/2615-sum-of-distances) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/gajender09/LeetCode-POTD/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [1189-maximum-number-of-balloons](https://github.com/gajender09/LeetCode-POTD/tree/master/1189-maximum-number-of-balloons) |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/gajender09/LeetCode-POTD/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2833-furthest-point-from-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/2833-furthest-point-from-origin) |
 ## Geometry
 |  |
