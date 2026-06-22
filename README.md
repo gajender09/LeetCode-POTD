@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
 | [0657-robot-return-to-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/0657-robot-return-to-origin) |
 | [0796-rotate-string](https://github.com/gajender09/LeetCode-POTD/tree/master/0796-rotate-string) |
+| [1189-maximum-number-of-balloons](https://github.com/gajender09/LeetCode-POTD/tree/master/1189-maximum-number-of-balloons) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/gajender09/LeetCode-POTD/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1871-jump-game-vii](https://github.com/gajender09/LeetCode-POTD/tree/master/1871-jump-game-vii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/gajender09/LeetCode-POTD/tree/master/2075-decode-the-slanted-ciphertext) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/gajender09/LeetCode-POTD/tree/master/0205-isomorphic-strings) |
 | [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
 | [0874-walking-robot-simulation](https://github.com/gajender09/LeetCode-POTD/tree/master/0874-walking-robot-simulation) |
+| [1189-maximum-number-of-balloons](https://github.com/gajender09/LeetCode-POTD/tree/master/1189-maximum-number-of-balloons) |
 | [1345-jump-game-iv](https://github.com/gajender09/LeetCode-POTD/tree/master/1345-jump-game-iv) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/gajender09/LeetCode-POTD/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2121-intervals-between-identical-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/2121-intervals-between-identical-elements) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/gajender09/LeetCode-POTD/tree/master/0347-top-k-frequent-elements) |
+| [1189-maximum-number-of-balloons](https://github.com/gajender09/LeetCode-POTD/tree/master/1189-maximum-number-of-balloons) |
 | [2833-furthest-point-from-origin](https://github.com/gajender09/LeetCode-POTD/tree/master/2833-furthest-point-from-origin) |
 ## Geometry
 |  |
