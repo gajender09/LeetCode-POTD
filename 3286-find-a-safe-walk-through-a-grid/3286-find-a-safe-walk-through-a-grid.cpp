@@ -8,13 +8,13 @@ public:
         vector<vector<int>> dir = {{-1,0}, {1,0}, {0,-1}, {0,1}};
 
         queue<tuple<int, int, int>> q;               // (row, col, remaining health)
-        vector<vector<int>> vis(m, vector<int>(n, -1));
+        vector<vector<int>> bestHealth(m, vector<int>(n, -1));
 
         int startHealth = health - grid[0][0];
         if (startHealth <= 0) return false;
 
         q.push({0, 0, startHealth});
-        vis[0][0] = startHealth;
+        bestHealth[0][0] = startHealth;
 
         while (!q.empty()) {
             auto [r, c, health] = q.front();
@@ -33,8 +33,8 @@ public:
 
                     int newHealth = health - grid[newR][newC];
 
-                    if (newHealth > 0 && newHealth > vis[newR][newC]) {
-                        vis[newR][newC] = newHealth;
+                    if (newHealth > 0 && newHealth > bestHealth[newR][newC]) {
+                        bestHealth[newR][newC] = newHealth;
                         q.push({newR, newC, newHealth});
                     }
                 }
