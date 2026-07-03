@@ -3,8 +3,7 @@ public:
     using ll = long long;
     const ll INF = 4e18;
 
-    bool check(int limit, vector<vector<pair<int, int>>>& graph,
-               vector<int>& topo, vector<bool>& online, long long k) {
+    bool check(int limit, vector<vector<pair<int, int>>>& graph, vector<int>& topo, vector<bool>& online, long long k) {
 
         int n = graph.size();
 
@@ -37,8 +36,7 @@ public:
         return dist[n - 1] <= k;
     }
 
-    int findMaxPathScore(vector<vector<int>>& edges, vector<bool>& online,
-                         long long k) {
+    int findMaxPathScore(vector<vector<int>>& edges, vector<bool>& online, long long k) {
 
         int n = online.size();
 
