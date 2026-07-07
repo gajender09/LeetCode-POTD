@@ -1,22 +1,24 @@
 class Solution {
 public:
     long long sumAndMultiply(int n) {
+        if (n == 0) return 0;
 
-        if(n == 0) return 0;
-
-        string s = to_string(n);
-
-        long long x = 0;
+        long long num = 0;
+        long long place = 1;
         int sum = 0;
 
-        for(char ch : s){
-            if(ch == '0') continue;
+        while (n) {
+            int digit = n % 10;
 
-            int d = ch - '0';
-            x = x * 10 + d;
-            sum += d;
+            if (digit) {
+                num += 1LL * digit * place;
+                place *= 10;
+                sum += digit;
+            }
+
+            n /= 10;
         }
 
-        return x * sum;
+        return num * sum;
     }
 };
