@@ -1,37 +1,48 @@
 class Solution {
 public:
     static const int MOD = 1e9 + 7;
-    int n;
-    int dp[201][201][201];
-
-    int solve(int idx, int g1, int g2, vector<int>& nums) {
-        if (idx == n) {
-            return (g1 != 0 && g1 == g2);
-        }
-
-        int& ans = dp[idx][g1][g2];
-        if (ans != -1)
-            return ans;
-
-        ans = 0;
-
-        // Ignore current element
-        ans = solve(idx + 1, g1, g2, nums);
-
-        // Put in seq1
-        int ng1 = (g1 == 0) ? nums[idx] : gcd(g1, nums[idx]);
-        ans = (ans + solve(idx + 1, ng1, g2, nums)) % MOD;
-
-        // Put in seq2
-        int ng2 = (g2 == 0) ? nums[idx] : gcd(g2, nums[idx]);
-        ans = (ans + solve(idx + 1, g1, ng2, nums)) % MOD;
-
-        return ans;
-    }
 
     int subsequencePairCount(vector<int>& nums) {
-        n = nums.size();
-        memset(dp, -1, sizeof(dp));
-        return solve(0, 0, 0, nums);
+
+        vector<vector<int>> cur(201, vector<int>(201, 0));
+        vector<vector<int>> nxt(201, vector<int>(201, 0));
+
+        cur[0][0] = 1;
+
+        for (int x : nums) {
+
+            for (int i = 0; i <= 200; i++)
+                fill(nxt[i].begin(), nxt[i].end(), 0);
+
+            for (int g1 = 0; g1 <= 200; g1++) {
+                for (int g2 = 0; g2 <= 200; g2++) {
+
+                    if (cur[g1][g2] == 0)
+                        continue;
+
+                    long long ways = cur[g1][g2];
+
+                    // Ignore
+                    nxt[g1][g2] = (nxt[g1][g2] + ways) % MOD;
+
+                    // Put in seq1
+                    int ng1 = (g1 == 0 ? x : gcd(g1, x));
+                    nxt[ng1][g2] = (nxt[ng1][g2] + ways) % MOD;
+
+                    // Put in seq2
+                    int ng2 = (g2 == 0 ? x : gcd(g2, x));
+                    nxt[g1][ng2] = (nxt[g1][ng2] + ways) % MOD;
+                }
+            }
+
+            swap(cur, nxt);
+        }
+
+        long long ans = 0;
+
+        for (int g = 1; g <= 200; g++)
+            ans = (ans + cur[g][g]) % MOD;
+
+        return ans;
     }
 };
